@@ -8,7 +8,7 @@
     "build": "rimraf lib && babel src --out-dir lib",
     "build:watch": "watch 'npm run build' ./src/",
     "prepublish": "npm run build",
-    "test": "mocha --compilers js:babel-core/register --recursive ./test"
+    "test": "mocha --compilers js:babel-core/register --recursive ./test --require ./test/setup.js"
   },
   "babel": {
     "presets": [
@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/stonevanzuiden/redux-threads",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "lodash.mapvalues": "^4.6.0",
+    "lodash.zip": "^4.2.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-eslint": "^5.0.0",
@@ -33,8 +36,15 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "chai": "^3.5.0",
+    "chai-enzyme": "^0.6.1",
     "eslint": "~2.2.0",
+    "expect-enzyme": "^0.13.1",
+    "jsdom": "^9.11.0",
     "mocha": "^2.4.5",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
     "rimraf": "^2.5.2",
     "watch": "^0.17.1"
   },
