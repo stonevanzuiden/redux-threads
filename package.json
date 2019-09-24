@@ -46,7 +46,7 @@
     "react-redux": "^5.0.3",
     "redux": "^3.6.0",
     "rimraf": "^2.5.2",
-    "watch": "^0.17.1"
+    "watch": "^1.0.2"
   },
   "npmName": "redux-threads",
   "npmFileMap": [
