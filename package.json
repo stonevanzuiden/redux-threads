@@ -36,7 +36,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "chai": "^3.5.0",
-    "chai-enzyme": "^0.6.1",
+    "chai-enzyme": "^0.8.0",
     "eslint": "~2.2.0",
     "expect-enzyme": "^0.13.1",
     "jsdom": "^9.11.0",
