@@ -40,7 +40,7 @@
     "eslint": "~2.2.0",
     "expect-enzyme": "^0.13.1",
     "jsdom": "^9.11.0",
-    "mocha": "^2.4.5",
+    "mocha": "^7.1.1",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
     "react-redux": "^5.0.3",
