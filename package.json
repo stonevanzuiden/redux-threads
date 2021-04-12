@@ -39,7 +39,7 @@
     "chai-enzyme": "^0.6.1",
     "eslint": "~2.2.0",
     "expect-enzyme": "^0.13.1",
-    "jsdom": "^9.11.0",
+    "jsdom": "^16.5.3",
     "mocha": "^2.4.5",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
